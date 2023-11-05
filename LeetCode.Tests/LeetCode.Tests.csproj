@@ -26,4 +26,8 @@
     <ProjectReference Include="..\LeetCodeProblems\LeetCode.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Stacks\" />
+  </ItemGroup>
+
 </Project>
