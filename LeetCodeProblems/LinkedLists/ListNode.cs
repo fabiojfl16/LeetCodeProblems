@@ -3,12 +3,12 @@
 /// <summary>
 /// Definition for singly-linked list.
 /// </summary>
-public class SinglyLinkedList
+public class ListNode
 {
     public int val;
-    public SinglyLinkedList next;
+    public ListNode next;
 
-    public SinglyLinkedList(int val = 0, SinglyLinkedList next = null)
+    public ListNode(int val = 0, ListNode next = null)
     {
         this.val = val;
         this.next = next;
