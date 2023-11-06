@@ -1,20 +1,20 @@
 ﻿namespace LeetCodeProblems.Arrays;
 
-internal class RemoveElement27
+public class RemoveElement27
 {
-    public static int RemoveElement(int[] nums, int val)
+    public int RemoveElement(int[] nums, int val)
     {
-        int k = 0;
+        int left = 0;
 
         for (int i = 0; i < nums.Length; i++)
         {
             if (nums[i] != val)
             {
-                nums[k] = nums[i];
-                k++;
+                nums[left] = nums[i];
+                left++;
             }
         }
 
-        return k;
+        return left;
     }
 }
