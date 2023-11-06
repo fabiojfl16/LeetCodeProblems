@@ -1,8 +1,8 @@
 ﻿namespace LeetCodeProblems.Arrays;
 
-internal class RemoveDuplicates26
+public class RemoveDuplicates26
 {
-    public static int RemoveDuplicates(int[] nums)
+    public int RemoveDuplicates(int[] nums)
     {
         int left = 1;
 

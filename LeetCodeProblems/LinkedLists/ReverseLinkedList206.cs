@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace LeetCode.LinkedLists;
+﻿namespace LeetCode.LinkedLists;
 
 public class ReverseLinkedList206
 {
