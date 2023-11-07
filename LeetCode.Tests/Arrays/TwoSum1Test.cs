@@ -12,7 +12,11 @@ public class TwoSum1Test
         int[] nums = new int[] { 2, 7, 11, 15 };
         int[] expected = new int[] { 0, 1 };
 
-        var result = TwoSum1.TwoSum(nums, target);
+        // Act
+        var twoSum = new TwoSum1();
+        var result = twoSum.TwoSum(nums, target);
+
+        // Assert
         Assert.Equal(expected, result);
     }
 
@@ -24,7 +28,11 @@ public class TwoSum1Test
         int[] nums = new int[] { 3, 2, 4 };
         int[] expected = new int[] { 1, 2 };
 
-        var result = TwoSum1.TwoSum(nums, target);
+        // Act
+        var twoSum = new TwoSum1();
+        var result = twoSum.TwoSum(nums, target);
+
+        // Assert
         Assert.Equal(expected, result);
     }
 
@@ -36,7 +44,11 @@ public class TwoSum1Test
         int[] nums = new int[] { 3, 2, 3 };
         int[] expected = new int[] { 0, 2 };
 
-        var result = TwoSum1.TwoSum(nums, target);
+        // Act
+        var twoSum = new TwoSum1();
+        var result = twoSum.TwoSum(nums, target);
+
+        // Assert
         Assert.Equal(expected, result);
     }
 }

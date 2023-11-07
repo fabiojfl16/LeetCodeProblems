@@ -3,7 +3,7 @@
 public class TwoSum1
 {
     // Big O (n2)
-    public static int[] TwoSum2(int[] nums, int target)
+    public int[] TwoSum2(int[] nums, int target)
     {
         List<int> result = new();
 
@@ -28,7 +28,7 @@ public class TwoSum1
     }
 
     // Big O (n)
-    public static int[] TwoSum(int[] nums, int target)
+    public int[] TwoSum(int[] nums, int target)
     {
         var valueIndexMap = new Dictionary<int, int>();
 

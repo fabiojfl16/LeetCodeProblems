@@ -2,7 +2,7 @@
 
 public class ValidAnagram242
 {
-    public static bool IsAnagram(string firstWord, string secondWord)
+    public bool IsAnagram(string firstWord, string secondWord)
     {
         if (firstWord.Length != secondWord.Length)
             return false;

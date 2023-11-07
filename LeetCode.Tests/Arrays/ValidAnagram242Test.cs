@@ -11,7 +11,11 @@ public class ValidAnagram242Test
         string s = "anagram";
         string t = "nagaram";
 
-        bool isAnagram = ValidAnagram242.IsAnagram(s, t);
+        // Act
+        var anagram = new ValidAnagram242();
+        bool isAnagram = anagram.IsAnagram(s, t);
+
+        // Assert
         Assert.True(isAnagram);
     }
 
@@ -22,7 +26,11 @@ public class ValidAnagram242Test
         string s = "rat";
         string t = "car";
 
-        bool isAnagram = ValidAnagram242.IsAnagram(s, t);
+        // Act
+        var anagram = new ValidAnagram242();
+        bool isAnagram = anagram.IsAnagram(s, t);
+
+        // Assert
         Assert.False(isAnagram);
     }
 }
