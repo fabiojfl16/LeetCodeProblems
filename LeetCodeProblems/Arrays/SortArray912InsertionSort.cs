@@ -1,13 +1,13 @@
 ﻿namespace LeetCode.Arrays;
 
-public class SortArray912
+public class SortArray912InsertionSort
 {
     /// <summary>
     /// Insertion Sort Algorithm: O(n2)
     /// </summary>
     /// <param name="nums"></param>
     /// <returns></returns>
-    public static int[] SortArray(int[] nums)
+    public int[] SortArray(int[] nums)
     {
         for (int i = 1; i < nums.Length; i++)
         {
