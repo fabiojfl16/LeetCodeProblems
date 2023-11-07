@@ -1,6 +1,6 @@
-﻿using LeetCode.Queue;
+﻿using LeetCode.Stacks;
 
-namespace LeetCode.Tests.Queue;
+namespace LeetCode.Tests.Stacks;
 
 public class ValidParentheses20Test
 {

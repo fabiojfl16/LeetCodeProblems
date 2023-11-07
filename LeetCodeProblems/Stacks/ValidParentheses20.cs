@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Queue;
+﻿namespace LeetCode.Stacks;
 
 public class ValidParentheses20
 {
