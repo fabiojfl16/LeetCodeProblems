@@ -14,6 +14,7 @@ public class ValidAnagram242
         {
             string firstKey = firstWord[i].ToString();
 
+            // Add the count of each character in the string
             if (firstMap.ContainsKey(firstKey))
                 firstMap[firstKey] += 1;
             else
@@ -29,6 +30,7 @@ public class ValidAnagram242
 
         foreach (string key in firstMap.Keys)
         {
+            // Checks if firstWord and Second contains the same character and also the count of it.
             if (!secondMap.ContainsKey(key) || secondMap[key] != firstMap[key])
                 return false;
         }

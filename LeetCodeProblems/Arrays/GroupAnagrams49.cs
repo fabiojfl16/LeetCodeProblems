@@ -4,6 +4,7 @@ public class GroupAnagrams49
 {
     public IList<IList<string>> GroupAnagrams(string[] strs)
     {
+        // string Hash and Anagrams
         var groups = new Dictionary<string, IList<string>>();
 
         foreach (string word in strs)
@@ -16,7 +17,7 @@ public class GroupAnagrams49
                 hash[character - 'a']++;
             }
 
-            string key = new string(hash);
+            string key = new(hash);
             
             if (!groups.ContainsKey(key))
             {
