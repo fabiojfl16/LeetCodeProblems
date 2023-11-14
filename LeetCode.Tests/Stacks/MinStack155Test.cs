@@ -10,17 +10,43 @@ public class MinStack155Test
         // Arrange
         var stack = new MinStack155();
 
-        // Act
+        // Act, Assert
         stack.Push(-2);
         stack.Push(0);
         stack.Push(-3);
-        stack.GetMin(); // return -3
-        stack.Pop();
-        int top = stack.Top();    // return 0
-        int min = stack.GetMin(); // return -2
+        
+        int min = stack.GetMin();
+        Assert.Equal(-3, min);
 
-        // Assert
+        stack.Pop();
+
+        int top = stack.Top();
         Assert.Equal(-0, top);
+
+        min = stack.GetMin();
+        Assert.Equal(-2, min);
+    }
+
+    [Fact]
+    public void ShouldPushAndPopFromStackAndGetMinValue()
+    {
+        // Arrange
+        var stack = new MinStack155();
+
+        // Act, Assert
+        stack.Push(-2);
+        stack.Push(0);
+        stack.Push(-1);
+
+        int min = stack.GetMin();
+        Assert.Equal(-2, min);
+
+        int top = stack.Top();
+        Assert.Equal(-1, top);
+
+        stack.Pop();
+
+        min = stack.GetMin();
         Assert.Equal(-2, min);
     }
 }
