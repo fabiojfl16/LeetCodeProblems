@@ -1,10 +1,10 @@
 ﻿namespace LeetCode.Stacks;
 
-public class MinStack
+public class MinStack155
 {
     private readonly List<int> stack;
 
-    public MinStack()
+    public MinStack155()
     {
         stack = new List<int>();
     }
