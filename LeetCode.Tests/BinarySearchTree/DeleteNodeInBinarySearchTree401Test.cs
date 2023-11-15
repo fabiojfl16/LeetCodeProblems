@@ -9,7 +9,7 @@ public class DeleteNodeInBinarySearchTree401Test
     {
         // Arrange
         int val = 3;
-        int expectedValue = 2;
+        int expectedValue = 4;
 
         var tree = 
             new TreeNode(5,
@@ -32,7 +32,7 @@ public class DeleteNodeInBinarySearchTree401Test
     {
         // Arrange
         int val = 3;
-        int expectedValue = 2;
+        int expectedValue = 4;
 
         var tree =
             new TreeNode(5,
